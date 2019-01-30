@@ -2,7 +2,7 @@
 
 from unittest import TestCase
 
-import train.app
+from data.train.app import train
 
 class TestApp(TestCase):
     """Unit Test for app.py."""
