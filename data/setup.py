@@ -10,7 +10,5 @@ setup(
     license='',
     author='Lukas Schmid',
     author_email='lukas.m.schmid@gmail.com',
-    description='model train application',
-    setup_requires=["pytest-runner"],
-    tests_require=["pytest"]
+    description='model train application'
 )
