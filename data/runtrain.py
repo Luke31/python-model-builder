@@ -1,3 +1,4 @@
-from data.train.app import train
+from train.app import train
 
-print(train())
+train("datasets/trainingset.csv", "model/model.joblib")
+

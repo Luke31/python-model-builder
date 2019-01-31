@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='train',
-    version='1.0.5.dev1',
+    version='1.0.6.dev1',
     packages=find_packages(),
     url='',
     license='',

@@ -108,3 +108,6 @@ venv.bak/
 .project
 .pyproject
 .settings
+
+# model result
+model.joblib
