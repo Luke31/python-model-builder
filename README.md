@@ -13,12 +13,12 @@ docker run -it python-model-builder
 The resulting model is now persisted inside the image as `/app/model/model.joblib`
 
 Use this resulting image for building a prediction-image like:
-```docker
+```dockerfile
 COPY --from python-model-builder /app/model/model.joblib /app/model/model.joblib 
 ```
 
 Inside your new prediction image you can load the model in python using
-```python 
+```python
 from joblib import load
 model = load('/app/model/model.joblib')    
 ```
