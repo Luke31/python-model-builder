@@ -1,6 +1,8 @@
 # python-model-builder
 Sample project for training a python ML-model and persisting it inside the container as `/app/model/model.joblib` 
 
+Implementation of Scikit-Learn Ordinary Least Squares example: https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares
+
 ## How to use
 
 Use following command to clone the git repo, build an image and run the container: 
