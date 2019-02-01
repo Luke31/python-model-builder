@@ -1,7 +1,7 @@
 """Tests for app.py."""
 
 from unittest import TestCase
-# from train.app import train_model
+from train.app import train_model
 # import numpy as np
 
 # Should mock sklearn methods, problems with tox
@@ -16,9 +16,9 @@ class TestApp(TestCase):
 
     def test_train_model(self):
         """Test train model."""
-        # x = [[0, 0], [1, 1], [2, 2]]
-        # y = [0, 1, 2]
-        # model = train_model(x, y)
-        # self.assertTrue(np.allclose(model.coef_, [0.5, 0.5]))
+        x = [[0, 0], [1, 1], [2, 2]]
+        y = [0, 1, 2]
+        model = train_model(x, y)
+        self.assertTrue(np.allclose(model.coef_, [0.5, 0.5]))
 
-        self.assertTrue(True)
+        #self.assertTrue(True)
